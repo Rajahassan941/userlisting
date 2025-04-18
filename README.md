@@ -1,12 +1,26 @@
-# React + Vite
+#  Test project user listing app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, responsive React application that lists users from an API with modal detail views, dark/light mode toggle, and pagination. Built with **React**, **MUI**, **Tailwind CSS**, and **TanStack Query**.
+## Setting up and running the app
+```
+    npm install
+    npm run dev
+```
+## For building the application for production
+```
+    npm run build
+```
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  **User Listing with Pagination**
+- **Detailed Modal View for Each User**
+-  **Dark/Light Mode Toggle**
+- **Lazy Loading & Skeleton Loaders**
+- **API Configuration via .env**
+- **Modern UI using Material UI + TailwindCSS**
+- **Fully Responsive Layout**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
